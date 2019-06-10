@@ -20,7 +20,7 @@ def find_max_value(array)
   length.times { |index|
     if array[index] > highest
       highest = array[index]
-      highest_index = array
+      highest_index = index
     end
   }
   return highest_index
